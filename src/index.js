@@ -9,7 +9,7 @@ const app = express(); // Ogni volta che viene fatto una richiesta GET HTTP alla
 app.use(bodyParser.json());
 app.use(authRoutes);
 
-const mongoURI= 'mongodb+srv://mybike:mybikepassword1234@cluster0-xd85k.gcp.mongodb.net/test?retryWrites=true&w=majority';
+const mongoURI= 'mongodb+srv://user1234:userpassword1234@cluster0-nwibo.gcp.mongodb.net/test?retryWrites=true&w=majority';
 mongoose.connect(mongoURI,{
   useNewUrlParser:true,
   useCreateIndex:true,

@@ -11,7 +11,7 @@ const userSchema = new mongoose.Schema({
     type:String,
     required:true
   },
-  datadinascita:{
+  dataDiNascita:{
     type:String,
     required:true
   },
@@ -31,7 +31,7 @@ const userSchema = new mongoose.Schema({
     type:String,
     required:true
   },
-  walletaddress:{
+  walletAddress:{
     type:String,
     unique: true, //vogliamo che ogni wallet sia unico
     required:true //ogni user deve avere una mail
